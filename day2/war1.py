@@ -22,11 +22,11 @@ def fibs(num):
     return result
 
 
-print(fibs(4))
+print(fibs(10))
 
 # 打印三角
 for i in range(10):
-    for j in (0, i):
+    for j in range(0, i):
         print("-", end='')
     for j in range(i, 10):
         print("$", end='')
